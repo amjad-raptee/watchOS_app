@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4B629C2C88C6840057CC88 /* DinoWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B629B2C88C6840057CC88 /* DinoWatchApp.swift */; };
+		8B4B629E2C88C6840057CC88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B629D2C88C6840057CC88 /* ContentView.swift */; };
+		8B4B62A02C88C6870057CC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B629F2C88C6870057CC88 /* Assets.xcassets */; };
+		8B4B62A32C88C6870057CC88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B62A22C88C6870057CC88 /* Preview Assets.xcassets */; };
+		8B4B62AD2C88C6870057CC88 /* DinoWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B62AC2C88C6870057CC88 /* DinoWatch_Watch_AppTests.swift */; };
+		8B4B62B72C88C6870057CC88 /* DinoWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B62B62C88C6870057CC88 /* DinoWatch_Watch_AppUITests.swift */; };
+		8B4B62B92C88C6870057CC88 /* DinoWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B62B82C88C6870057CC88 /* DinoWatch_Watch_AppUITestsLaunchTests.swift */; };
+		8B51F3BD2C8B291B00853298 /* HifiScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F3BC2C8B291B00853298 /* HifiScreen.swift */; };
+		8B51F3BF2C8B330300853298 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F3BE2C8B330300853298 /* TabView.swift */; };
+		8BA5069B2C8ACAE4000A8309 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5069A2C8ACAE4000A8309 /* Item.swift */; };
+		8BA5069D2C8AE5F2000A8309 /* ControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5069C2C8AE5F2000A8309 /* ControlScreen.swift */; };
+		8BA506A32C8B1C33000A8309 /* LocationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA506A22C8B1C33000A8309 /* LocationScreen.swift */; };
+		8BB795562C8C7F8500EF601D /* WatchConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB795552C8C7F8500EF601D /* WatchConnect.swift */; };
+		8BDF4B702C8EC61500EA1A9F /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF4B6F2C8EC61500EA1A9F /* DataObject.swift */; };
+		8BDF4B742C8ED14D00EA1A9F /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF4B732C8ED14D00EA1A9F /* ConnectionView.swift */; };
+		8BDF4B762C8ED20400EA1A9F /* WatchSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF4B752C8ED20400EA1A9F /* WatchSessionDelegate.swift */; };
+		8BFFAAA62C89B6AC00C2758D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFAAA52C89B6AC00C2758D /* Note.swift */; };
+		8BFFAAA82C89D29C00C2758D /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFFAAA72C89D29C00C2758D /* MainScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4B62A92C88C6870057CC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4B62902C88C6840057CC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4B62972C88C6840057CC88;
+			remoteInfo = "DinoWatch Watch App";
+		};
+		8B4B62B32C88C6870057CC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4B62902C88C6840057CC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4B62972C88C6840057CC88;
+			remoteInfo = "DinoWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4B62982C88C6840057CC88 /* DinoWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DinoWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4B629B2C88C6840057CC88 /* DinoWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoWatchApp.swift; sourceTree = "<group>"; };
+		8B4B629D2C88C6840057CC88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B4B629F2C88C6870057CC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4B62A22C88C6870057CC88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B4B62A82C88C6870057CC88 /* DinoWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DinoWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4B62AC2C88C6870057CC88 /* DinoWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8B4B62B22C88C6870057CC88 /* DinoWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DinoWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4B62B62C88C6870057CC88 /* DinoWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8B4B62B82C88C6870057CC88 /* DinoWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B51F3BC2C8B291B00853298 /* HifiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HifiScreen.swift; sourceTree = "<group>"; };
+		8B51F3BE2C8B330300853298 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		8BA5069A2C8ACAE4000A8309 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8BA5069C2C8AE5F2000A8309 /* ControlScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlScreen.swift; sourceTree = "<group>"; };
+		8BA506A22C8B1C33000A8309 /* LocationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationScreen.swift; sourceTree = "<group>"; };
+		8BB795552C8C7F8500EF601D /* WatchConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnect.swift; sourceTree = "<group>"; };
+		8BDF4B6F2C8EC61500EA1A9F /* DataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
+		8BDF4B732C8ED14D00EA1A9F /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		8BDF4B752C8ED20400EA1A9F /* WatchSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionDelegate.swift; sourceTree = "<group>"; };
+		8BFFAAA52C89B6AC00C2758D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8BFFAAA72C89D29C00C2758D /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4B62952C88C6840057CC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B62A52C88C6870057CC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B62AF2C88C6870057CC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4B628F2C88C6840057CC88 = {
+			isa = PBXGroup;
+			children = (
+				8B4B629A2C88C6840057CC88 /* DinoWatch Watch App */,
+				8B4B62AB2C88C6870057CC88 /* DinoWatch Watch AppTests */,
+				8B4B62B52C88C6870057CC88 /* DinoWatch Watch AppUITests */,
+				8B4B62992C88C6840057CC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4B62992C88C6840057CC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B62982C88C6840057CC88 /* DinoWatch Watch App.app */,
+				8B4B62A82C88C6870057CC88 /* DinoWatch Watch AppTests.xctest */,
+				8B4B62B22C88C6870057CC88 /* DinoWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4B629A2C88C6840057CC88 /* DinoWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF4B722C8ED12E00EA1A9F /* watchConnect */,
+				8BB795542C8C7E7E00EF601D /* repo */,
+				8BFFAAA42C89B67A00C2758D /* model */,
+				8BFFAAA32C89B66B00C2758D /* view */,
+				8B4B629B2C88C6840057CC88 /* DinoWatchApp.swift */,
+				8B4B629F2C88C6870057CC88 /* Assets.xcassets */,
+				8B4B62A12C88C6870057CC88 /* Preview Content */,
+			);
+			path = "DinoWatch Watch App";
+			sourceTree = "<group>";
+		};
+		8B4B62A12C88C6870057CC88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B62A22C88C6870057CC88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B4B62AB2C88C6870057CC88 /* DinoWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B62AC2C88C6870057CC88 /* DinoWatch_Watch_AppTests.swift */,
+			);
+			path = "DinoWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8B4B62B52C88C6870057CC88 /* DinoWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B62B62C88C6870057CC88 /* DinoWatch_Watch_AppUITests.swift */,
+				8B4B62B82C88C6870057CC88 /* DinoWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "DinoWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		8BB795542C8C7E7E00EF601D /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				8BB795552C8C7F8500EF601D /* WatchConnect.swift */,
+				8BDF4B6F2C8EC61500EA1A9F /* DataObject.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		8BDF4B722C8ED12E00EA1A9F /* watchConnect */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF4B732C8ED14D00EA1A9F /* ConnectionView.swift */,
+				8BDF4B752C8ED20400EA1A9F /* WatchSessionDelegate.swift */,
+			);
+			path = watchConnect;
+			sourceTree = "<group>";
+		};
+		8BFFAAA32C89B66B00C2758D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B629D2C88C6840057CC88 /* ContentView.swift */,
+				8BFFAAA72C89D29C00C2758D /* MainScreen.swift */,
+				8BA5069C2C8AE5F2000A8309 /* ControlScreen.swift */,
+				8BA506A22C8B1C33000A8309 /* LocationScreen.swift */,
+				8B51F3BC2C8B291B00853298 /* HifiScreen.swift */,
+				8B51F3BE2C8B330300853298 /* TabView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8BFFAAA42C89B67A00C2758D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8BFFAAA52C89B6AC00C2758D /* Note.swift */,
+				8BA5069A2C8ACAE4000A8309 /* Item.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4B62972C88C6840057CC88 /* DinoWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4B62BC2C88C6870057CC88 /* Build configuration list for PBXNativeTarget "DinoWatch Watch App" */;
+			buildPhases = (
+				8B4B62942C88C6840057CC88 /* Sources */,
+				8B4B62952C88C6840057CC88 /* Frameworks */,
+				8B4B62962C88C6840057CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DinoWatch Watch App";
+			productName = "DinoWatch Watch App";
+			productReference = 8B4B62982C88C6840057CC88 /* DinoWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B4B62A72C88C6870057CC88 /* DinoWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4B62BF2C88C6870057CC88 /* Build configuration list for PBXNativeTarget "DinoWatch Watch AppTests" */;
+			buildPhases = (
+				8B4B62A42C88C6870057CC88 /* Sources */,
+				8B4B62A52C88C6870057CC88 /* Frameworks */,
+				8B4B62A62C88C6870057CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4B62AA2C88C6870057CC88 /* PBXTargetDependency */,
+			);
+			name = "DinoWatch Watch AppTests";
+			productName = "DinoWatch Watch AppTests";
+			productReference = 8B4B62A82C88C6870057CC88 /* DinoWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B4B62B12C88C6870057CC88 /* DinoWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4B62C22C88C6870057CC88 /* Build configuration list for PBXNativeTarget "DinoWatch Watch AppUITests" */;
+			buildPhases = (
+				8B4B62AE2C88C6870057CC88 /* Sources */,
+				8B4B62AF2C88C6870057CC88 /* Frameworks */,
+				8B4B62B02C88C6870057CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4B62B42C88C6870057CC88 /* PBXTargetDependency */,
+			);
+			name = "DinoWatch Watch AppUITests";
+			productName = "DinoWatch Watch AppUITests";
+			productReference = 8B4B62B22C88C6870057CC88 /* DinoWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4B62902C88C6840057CC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8B4B62972C88C6840057CC88 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8B4B62A72C88C6870057CC88 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8B4B62972C88C6840057CC88;
+					};
+					8B4B62B12C88C6870057CC88 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8B4B62972C88C6840057CC88;
+					};
+				};
+			};
+			buildConfigurationList = 8B4B62932C88C6840057CC88 /* Build configuration list for PBXProject "DinoWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4B628F2C88C6840057CC88;
+			productRefGroup = 8B4B62992C88C6840057CC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4B62972C88C6840057CC88 /* DinoWatch Watch App */,
+				8B4B62A72C88C6870057CC88 /* DinoWatch Watch AppTests */,
+				8B4B62B12C88C6870057CC88 /* DinoWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4B62962C88C6840057CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4B62A32C88C6870057CC88 /* Preview Assets.xcassets in Resources */,
+				8B4B62A02C88C6870057CC88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B62A62C88C6870057CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B62B02C88C6870057CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4B62942C88C6840057CC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDF4B762C8ED20400EA1A9F /* WatchSessionDelegate.swift in Sources */,
+				8BA506A32C8B1C33000A8309 /* LocationScreen.swift in Sources */,
+				8B4B629E2C88C6840057CC88 /* ContentView.swift in Sources */,
+				8BDF4B702C8EC61500EA1A9F /* DataObject.swift in Sources */,
+				8BA5069D2C8AE5F2000A8309 /* ControlScreen.swift in Sources */,
+				8B4B629C2C88C6840057CC88 /* DinoWatchApp.swift in Sources */,
+				8BB795562C8C7F8500EF601D /* WatchConnect.swift in Sources */,
+				8BFFAAA82C89D29C00C2758D /* MainScreen.swift in Sources */,
+				8BA5069B2C8ACAE4000A8309 /* Item.swift in Sources */,
+				8B51F3BD2C8B291B00853298 /* HifiScreen.swift in Sources */,
+				8B51F3BF2C8B330300853298 /* TabView.swift in Sources */,
+				8BDF4B742C8ED14D00EA1A9F /* ConnectionView.swift in Sources */,
+				8BFFAAA62C89B6AC00C2758D /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B62A42C88C6870057CC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4B62AD2C88C6870057CC88 /* DinoWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B62AE2C88C6870057CC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4B62B92C88C6870057CC88 /* DinoWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				8B4B62B72C88C6870057CC88 /* DinoWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4B62AA2C88C6870057CC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4B62972C88C6840057CC88 /* DinoWatch Watch App */;
+			targetProxy = 8B4B62A92C88C6870057CC88 /* PBXContainerItemProxy */;
+		};
+		8B4B62B42C88C6870057CC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4B62972C88C6840057CC88 /* DinoWatch Watch App */;
+			targetProxy = 8B4B62B32C88C6870057CC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B4B62BA2C88C6870057CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B4B62BB2C88C6870057CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8B4B62BD2C88C6870057CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = C6J5Y2K54F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DinoWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8B4B62BE2C88C6870057CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = C6J5Y2K54F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DinoWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		8B4B62C02C88C6870057CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6J5Y2K54F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raptee.DinoWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinoWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DinoWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8B4B62C12C88C6870057CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6J5Y2K54F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raptee.DinoWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinoWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DinoWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		8B4B62C32C88C6870057CC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6J5Y2K54F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raptee.DinoWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DinoWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8B4B62C42C88C6870057CC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6J5Y2K54F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raptee.DinoWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DinoWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4B62932C88C6840057CC88 /* Build configuration list for PBXProject "DinoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B62BA2C88C6870057CC88 /* Debug */,
+				8B4B62BB2C88C6870057CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4B62BC2C88C6870057CC88 /* Build configuration list for PBXNativeTarget "DinoWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B62BD2C88C6870057CC88 /* Debug */,
+				8B4B62BE2C88C6870057CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4B62BF2C88C6870057CC88 /* Build configuration list for PBXNativeTarget "DinoWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B62C02C88C6870057CC88 /* Debug */,
+				8B4B62C12C88C6870057CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4B62C22C88C6870057CC88 /* Build configuration list for PBXNativeTarget "DinoWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B62C32C88C6870057CC88 /* Debug */,
+				8B4B62C42C88C6870057CC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B4B62902C88C6840057CC88 /* Project object */;
+}
